@@ -1,4 +1,4 @@
-﻿
+I. Purpose
 -----------------------------------------------------------------------
  The purpose of the assignment was to challenge the students to create 
  a shell program. The shell program will run commands in one of two  
@@ -11,30 +11,30 @@
  commands in the input file one line at a time. After the commands 
  have run, the program ends.
 
-File List
+II. File List
 -----------------------------------------------------------------------
- shell.c
- batch1
- batch2
- README.md
- Makefile
+- shell.c
+- batch1
+- batch2
+- README.md
+- Makefile
 
-Compiling the assignment
+III. Compiling the assignment
 -----------------------------------------------------------------------
  Simply upload all the file to your directory and run "make" to 
  compile all the included files,in this case, we only have one
  .c file. (no separate header files or .c are included)
 
-Instructions
+VI. Instructions
 -----------------------------------------------------------------------
- Unzip files
- Enter "make" into command prompt
- Type "./shell" into command prompt
- Enter in Commands
- Seperate commands with "; "
+1. Unzip files
+2. Enter "make" into command prompt
+3. Type "./shell" into command prompt
+4. Enter in Commands
+5. Seperate commands with "; "
 
 
-Design Overview
+V. Design Overview
 -----------------------------------------------------------------------
  The program is set up using a struct array to hold the commands. Each 
  struct has a command name, a command type, the command(s), and the 
@@ -63,14 +63,3 @@ Design Overview
  read over. Extra white spaces will be trimmed off in the trim 
  function. No commands will just be passed over so those are not an 
  issue.
-
-Bugs or Problems
------------------------------------------------------------------------
-- History is set up to work, but does not
-- Prompt is set up to change the prompt, but does not
-- Reads the batch files, but seg faults at the very end of the
-  document.
-- Does not compensate for " | " in input
-
-Credits and Acknowledgements
------------------------------------------------------------------------
